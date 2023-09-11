@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.displayPic {
+  width: 15rem;
+  height: 15rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.flex_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex_gap {
+  gap: 0.3rem;
+}
+
+.UTCInMilliseconds {
+  font-size: 1.5rem;
+}
